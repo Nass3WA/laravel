@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-class RatingTableSeeder extends Seeder
+class GamePlatformTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,14 +13,13 @@ class RatingTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('ratings')->insert([
+          DB::table('game_platforms')->insert([
             [
-                'mark'=>15.5,
-                'content' => 'excellent',
-                'user_id' => 1,
                 'game_id' => 1,
-                'created_at' => now()
-            ]    
+                'platform_id'=>1,
+                
+            ]
+            
         ]);
     }
 }

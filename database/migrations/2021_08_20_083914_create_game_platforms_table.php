@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRatingsTable extends Migration
+class CreateGamePlatformsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,19 +13,15 @@ class CreateRatingsTable extends Migration
      */
     public function up()
     {
-        Schema::create('ratings', function (Blueprint $table) {
+        Schema::create('game_platforms', function (Blueprint $table) {
             $table->id();
-            $table->float('mark');
-            $table->string('content');
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->on('users')->references('id');
+            $table->unsignedBigInteger('platform_id');
+            $table->foreign('platform_id')->on('platforms')->references('id');
             $table->unsignedBigInteger('game_id');
             $table->foreign('game_id')->on('games')->references('id');
-            $table->timestamps();
         });
     }
 
-   
     /**
      * Reverse the migrations.
      *
@@ -33,6 +29,6 @@ class CreateRatingsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ratings');
+        Schema::dropIfExists('game_platforms');
     }
 }

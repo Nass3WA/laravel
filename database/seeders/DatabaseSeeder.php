@@ -16,10 +16,13 @@ class DatabaseSeeder extends Seeder
         // Appel de tous les seeders
         $this->call([
             UserTableSeeder::class,
+            StudioTableSeeder::class,
+            PlatformTableSeeder::class,
             GameTableSeeder::class,
             RatingTableSeeder::class,
-            StudioTableSeeder::class,
-            PlatformTableSeeder::class
+            CategorieTableSeeder::class,
+            GamePlatformTableSeeder::class,
+            CategorieGameTableSeeder::class
         ]); 
     }
 }
