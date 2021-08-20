@@ -20,7 +20,7 @@ class CreateGamesTable extends Migration
             $table->string('image');
             $table->text('description');
             $table->float('price');
-            $table->datetime('release_date');
+            $table->date('release_date');
             $table->timestamps();
         });
     }

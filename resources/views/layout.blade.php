@@ -19,7 +19,9 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="{{ route('homepage') }}">Accueil</a>
                         </li>
-                        
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{{ route('games.index') }}">liste des jeux</a>
+                        </li>
                         @auth
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('users.logout')}}">Déconnexion</a>

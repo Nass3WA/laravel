@@ -17,7 +17,10 @@ class GamePlatformTableSeeder extends Seeder
             [
                 'game_id' => 1,
                 'platform_id'=>1,
-                
+            ],
+            [
+                'game_id' => 1,
+                'platform_id'=>3,
             ]
             
         ]);

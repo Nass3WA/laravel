@@ -18,7 +18,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2000',
                 'mark'=>15.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/8Ev4YM1PwnF5wN3ZxR_PZ0n3C19FKWDSKlSN9lZMZ5kn_ieDHeHkmxAAn7_QEI0u1SVwyIKlxlREdm6CWMHH3nb1DTWOH2OuseqcSy5HW_gVnbKJaeYT8q_KS5g2EcxGLA',
+                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 60,
@@ -84,7 +84,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2001',
                 'mark'=>13,
-                'image'=>'https://lh3.googleusercontent.com/proxy/8Ev4YM1PwnF5wN3ZxR_PZ0n3C19FKWDSKlSN9lZMZ5kn_ieDHeHkmxAAn7_QEI0u1SVwyIKlxlREdm6CWMHH3nb1DTWOH2OuseqcSy5HW_gVnbKJaeYT8q_KS5g2EcxGLA',
+                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 46,
@@ -95,7 +95,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2010',
                 'mark'=>12.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/8Ev4YM1PwnF5wN3ZxR_PZ0n3C19FKWDSKlSN9lZMZ5kn_ieDHeHkmxAAn7_QEI0u1SVwyIKlxlREdm6CWMHH3nb1DTWOH2OuseqcSy5HW_gVnbKJaeYT8q_KS5g2EcxGLA',
+                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 63,
@@ -106,7 +106,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2015',
                 'mark'=>16.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/8Ev4YM1PwnF5wN3ZxR_PZ0n3C19FKWDSKlSN9lZMZ5kn_ieDHeHkmxAAn7_QEI0u1SVwyIKlxlREdm6CWMHH3nb1DTWOH2OuseqcSy5HW_gVnbKJaeYT8q_KS5g2EcxGLA',
+                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 75,
@@ -117,7 +117,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2020',
                 'mark'=>13.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/8Ev4YM1PwnF5wN3ZxR_PZ0n3C19FKWDSKlSN9lZMZ5kn_ieDHeHkmxAAn7_QEI0u1SVwyIKlxlREdm6CWMHH3nb1DTWOH2OuseqcSy5HW_gVnbKJaeYT8q_KS5g2EcxGLA',
+                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 89,
@@ -128,7 +128,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2022',
                 'mark'=>19,
-                'image'=>'https://lh3.googleusercontent.com/proxy/8Ev4YM1PwnF5wN3ZxR_PZ0n3C19FKWDSKlSN9lZMZ5kn_ieDHeHkmxAAn7_QEI0u1SVwyIKlxlREdm6CWMHH3nb1DTWOH2OuseqcSy5HW_gVnbKJaeYT8q_KS5g2EcxGLA',
+                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 60,
