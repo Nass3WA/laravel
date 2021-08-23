@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Démo Laravel - @yield('title')</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Démo Laravel - @yield('title')</title>
 </head>
 <body>
     <header>
@@ -23,6 +23,22 @@
                             <a class="nav-link active" aria-current="page" href="{{ route('games.index') }}">liste des jeux</a>
                         </li>
                         @auth
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('games.create')}}">Ajouter un jeu</a>
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('studios.create')}}">Ajouter un studio</a>
+                            </li> 
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('platforms.create')}}">Ajouter une plateforme</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('categories.create')}}">Ajouter une catégorie</a>
+                            </li>                               
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('users.update')}}">Modifier son profil</a>
+                            </li>                        
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('users.logout')}}">Déconnexion</a>
                             </li>

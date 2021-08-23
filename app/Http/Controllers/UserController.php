@@ -59,6 +59,36 @@ class UserController extends Controller
         ]);
     }
     
+    public function update() 
+    {
+        return view('users.update');
+    }
+    
+    public function edit(Request $request) 
+    {
+        $user_id = auth()->user()->id;
+        $user = User::find($user_id);
+        // Attention a bien modifier le protected $fillable dans le model user
+        if($request->input('password') === null) {
+            
+            $user->update([
+                'username' => $request->input('username'),
+                'email' => $request->input('email'),
+                'display_name' => $request->input('display_name'),
+                'avatar' =>  $request->input('avatar')
+            ]);
+        }else{
+                $user->update([
+                'username' => $request->input('username'),
+                'email' => $request->input('email'),
+                'display_name' => $request->input('display_name'),
+                'password' => bcrypt($request->input('password')),
+                'avatar' =>  $request->input('avatar')
+            ]);
+        }
+        return redirect()->route('homepage');
+    }
+    
      public function logout()
     {
         Auth::logout();

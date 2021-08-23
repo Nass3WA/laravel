@@ -18,7 +18,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2000',
                 'mark'=>15.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
+                'image'=>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yxKWkFnDi71aMpbIX_KwHrwxIQrlo9J7z2A1idrBGppCXX2mv9tqDtHX3Xk6eMocLlE&usqp=CAU',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 60,
@@ -49,7 +49,7 @@ class GameTableSeeder extends Seeder
                 
             ],
             [
-                'title' => 'Warcraft3',
+                'title' => 'Warcraft 3',
                 'mark'=>18,
                 'image'=>'https://assets.vg247.com/current//2015/02/warcraft-3-logo.jpg',
                 'description' => 'Warcraft III: Reforged est une édition remastérisée sortie le 28 janvier 2020 du jeu vidéo de stratégie en temps réel Warcraft III: Reign of Chaos et de son extension Warcraft III: The Frozen Throne, sortis respectivement en 2002 et 2003.',
@@ -71,7 +71,7 @@ class GameTableSeeder extends Seeder
                 
             ],
             [
-                'title' => 'tekken',
+                'title' => 'Tekken 3',
                 'mark'=>14.6,
                 'image'=>'https://m.media-amazon.com/images/I/51hVGNhU-CL._AC_SX466_.jpg',
                 'description' => "Tekken 3 est un jeu vidéo de combat, développé et édité par Namco sur borne d'arcade en 1997 puis adapté sur PlayStation en 1998. Il est le troisième épisode de la série Tekken",
@@ -84,7 +84,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2001',
                 'mark'=>13,
-                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
+                'image'=>'https://image.jeuxvideo.com/images/p2/f/i/fi21p20f.jpg',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 46,
@@ -95,7 +95,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2010',
                 'mark'=>12.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
+                'image'=>'https://m.media-amazon.com/images/I/61ts7fBeB7L._AC_SX425_.jpg',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 63,
@@ -106,7 +106,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2015',
                 'mark'=>16.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
+                'image'=>'https://s3.gaming-cdn.com/images/products/401/orig/jeu-origin-fifa-15-cover.jpg',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 75,
@@ -117,7 +117,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2020',
                 'mark'=>13.5,
-                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
+                'image'=>'https://www.fcg.bzh/wp-content/uploads/2020/05/Fifa-2020.jpgU',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 89,
@@ -128,7 +128,7 @@ class GameTableSeeder extends Seeder
             [
                 'title' => 'FIFA 2022',
                 'mark'=>19,
-                'image'=>'https://lh3.googleusercontent.com/proxy/VJr2UpKc-gCwxQuwozDEsfpWqJKvY0ThdRYN5_-vKbnUGEq8e_1FZCXTHW7FguVpbr7-kM5sSP1y6AWhmfL2ue5IjgTeLJYGvLQu_P3DqKiawmRKswjQo91iY5jW8MP9YA',
+                'image'=>'https://www.cdiscount.com/pdt2/7/7/5/1/1200x1200/5030937123775/rw/fifa-22-jeu-ps4.jpg',
                 'description' => 'jeu de foot de notre enfance',
                 'studio_id' => 1,
                 'price' => 60,
@@ -148,7 +148,6 @@ class GameTableSeeder extends Seeder
                 
             ],
         ]);
-        
     }
 }
 

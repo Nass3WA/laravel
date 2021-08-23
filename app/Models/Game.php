@@ -9,6 +9,11 @@ class Game extends Model
 {
     use HasFactory;
     
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }   
+    
      public function platforms()
     {
         return $this->belongsToMany(Platform::class,'game_platforms');
@@ -17,6 +22,7 @@ class Game extends Model
     {
         return $this->belongsTo(Studio::class);
     }
+    
  
     protected $dates =[
         'release_date'

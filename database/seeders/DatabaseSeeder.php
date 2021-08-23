@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             StudioTableSeeder::class,
             PlatformTableSeeder::class,
             GameTableSeeder::class,
+            CommentTableSeeder::class,
             RatingTableSeeder::class,
             CategorieTableSeeder::class,
             GamePlatformTableSeeder::class,

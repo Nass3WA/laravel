@@ -10,7 +10,7 @@
   
      @foreach($games as $game)
         <article>
-            <img src="{{ $game->image }}">
+            <a href="{{ route('games.show', ['id' => $game->id]) }}"><img src="{{ asset($game->image) }}"></a>
             <h2>{{ $game->title }}</h2>
         </article>
     @endforeach 

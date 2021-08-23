@@ -10,6 +10,12 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
+    
+    public function games()
+    {
+        return $this->belongsTo(Game::class);
+    }
+    
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
@@ -18,9 +24,11 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
         'email',
         'password',
+        'username',
+        'display_name',
+        'avatar'
     ];
 
     /**

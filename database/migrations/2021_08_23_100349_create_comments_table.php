@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateGamesTable extends Migration
+class CreateCommentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,21 +13,18 @@ class CreateGamesTable extends Migration
      */
     public function up()
     {
-        Schema::create('games', function (Blueprint $table) {
+        Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->string('title')->unique;
             $table->float('mark');
-            $table->string('image');
-            $table->text('description');
-            $table->float('price');
-            $table->date('release_date');
+            $table->text('content');
+            $table->unsignedBigInteger('game_id');
+            $table->foreign('game_id')->on('games')->references('id'); //Création clé étrangère
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->on('users')->references('id');
             $table->timestamps();
         });
     }
 
-
-
-           
     /**
      * Reverse the migrations.
      *
@@ -35,6 +32,6 @@ class CreateGamesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('games');
+        Schema::dropIfExists('comments');
     }
 }
